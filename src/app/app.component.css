@@ -1,0 +1,40 @@
+button {
+  width: 300px;
+  margin-top: 10px;
+}
+nz-layout {
+  margin: 10px;
+  background-color: white;
+  align-items: center;
+}
+.res_label {
+  margin: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.icon_btn {
+  width: 50px;
+  margin-top: 22px;
+  margin-left: 20px;
+}
+
+.overflow {
+  height: 38vh;
+  overflow: hidden auto;
+  scrollbar-width: thin;
+  scrollbar-color: #7b7b7b #cbcbcb;
+}
+
+.overflow::-webkit-scrollbar {
+  width: 5px;
+}
+
+.overflow::-webkit-scrollbar-track {
+  background: #cbcbcb;
+}
+
+.overflow::-webkit-scrollbar-thumb {
+  background-color: #7b7b7b;
+  border: 2px solid #cbcbcb;
+}
